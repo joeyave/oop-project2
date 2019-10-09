@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab2oop", "lab2oop\lab2oop.vcxproj", "{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}.Debug|x64.ActiveCfg = Debug|x64
+		{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}.Debug|x64.Build.0 = Debug|x64
+		{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}.Debug|x86.Build.0 = Debug|Win32
+		{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}.Release|x64.ActiveCfg = Release|x64
+		{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}.Release|x64.Build.0 = Release|x64
+		{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}.Release|x86.ActiveCfg = Release|Win32
+		{9A2A650A-4F43-4C32-A904-EAD53E4D7DAE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F266653-A9C8-4504-9553-5B54692E3C41}
+	EndGlobalSection
+EndGlobal
