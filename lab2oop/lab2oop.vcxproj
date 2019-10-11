@@ -153,11 +153,9 @@
   <ItemGroup>
     <ClCompile Include="lab2oop.cpp" />
     <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="StackNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stack.h" />
-    <ClInclude Include="StackNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,17 +18,11 @@
     <ClCompile Include="lab2oop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StackNode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Stack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="StackNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
