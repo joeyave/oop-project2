@@ -7,6 +7,26 @@ double evaluate_postfix(std::string postfix);
 
 int main()
 {
+	/* Stack<int> stk1;
+	for (int i = 0; i < 5; i++)
+		std::cin >> stk1;
+
+	std::cout << stk1[3];
+
+	Stack<int> stk2 = stk1;
+	std::cout << stk1;
+	std::cout << stk2;
+
+	Stack<int> stk3;
+	for (int i = 0; i < 5; i++)
+		stk3.push(i * 777);
+
+	std::cout << stk3;
+
+	stk3 = stk2;
+	std::cout << stk2;
+	std::cout << stk3; */
+
 	while (true)
 	{
 		std::string infix;

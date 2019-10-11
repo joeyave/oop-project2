@@ -60,6 +60,8 @@ public:
 		{
 			clone(src);
 		}
+
+		std::cout << "copy ctr" << std::endl;
 	}
 
 	bool is_empty()
@@ -115,15 +117,24 @@ public:
 
 	// Operators overloading.
 
-	Stack<T> operator=(const Stack& src) const
+	Stack<T> operator=(const Stack& src)
 	{
 		if (&src == this)
 			return *this;
 
-		if (!src.is_empty())
+		if (head)
 		{
-			clone(src);
+			Node* trav = head;
+			while (head)
+			{
+				head = head->next;
+				delete trav;
+				trav = head;
+			}
 		}
+			clone(src);
+
+		std::cout << "operator=" << std::endl;
 	}
 
 	T operator[](size_t n) const
@@ -131,6 +142,8 @@ public:
 		Node* trav = head;
 		while (trav && n-- > 0)
 			trav = trav->next;
+		std::cout << "operator[]" << std::endl;
+
 		return (trav == nullptr ? 0 : trav->val);
 	}
 
@@ -152,6 +165,8 @@ public:
 			}
 			std::cout << std::endl;
 		}
+
+		std::cout << "operator<<" << std::endl;
 		return out;
 	}
 
@@ -160,6 +175,9 @@ public:
 		T val;
 		in >> val;
 		stk.push(val);
+
+		std::cout << "operator>>" << std::endl;
+
 		return in;
 	}
 };
